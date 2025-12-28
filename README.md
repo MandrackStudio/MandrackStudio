@@ -1,34 +1,4 @@
-# Multivozes BR Engine 🇧🇷
-
-<p align="center">
-  <a href="https://multivozes.com" target="_blank">
-    <img src="https://multivozes.com/assets/images/Logo_Multivozes.png" alt="Logo Painel Multivozes" width="150"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Versão-2.0.0_Multilingual-blue?style=for-the-badge" alt="Versão">
-  <img src="https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" alt="Licença">
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=L4nuFUAW-Is" target="_blank">
-    <img src="https://img.youtube.com/vi/L4nuFUAW-Is/maxresdefault.jpg" alt="Vídeo de Apresentação do Multivozes BR Engine" width="600"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=L4nuFUAW-Is" target="_blank">
-    <img src="https://img.shields.io/badge/▶️_Assista_ao_Vídeo_Completo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Assista ao Vídeo"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/c/samucatutoriais" target="_blank">
-    <img src="https://multivozes.com/assets/images/banner-youtube.png" alt="Canal Samuca Tutoriais" width="150"/>
-  </a>
-</p>
+# MandrackStudio 🇧🇷
 
 ---
 
@@ -246,6 +216,7 @@ Acesse a documentação interativa (Swagger UI) para testar a API em:
 - **Local:** http://localhost:5050/docs
 - **Remoto:** http://SEU_IP:5050/docs
 ```
+
 
 
 
