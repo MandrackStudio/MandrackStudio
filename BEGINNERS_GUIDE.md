@@ -1,4 +1,4 @@
-# 📘 Guia de Instalação para Iniciantes - Multivozes BR Engine
+# 📘 Guia de Instalação para Iniciantes - MandrackStudio
 
 Olá! 👋 Bem-vindo ao Multivozes BR Engine! Este guia foi feito para você que está a começar e quer instalar o projeto passo a passo, sem complicações.
 
@@ -268,4 +268,5 @@ Com tudo instalado e funcionando:
 ```
 
 **Pronto! Copie TUDO de uma única vez!** 🎯
+
 
