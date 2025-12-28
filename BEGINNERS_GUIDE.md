@@ -42,7 +42,7 @@ cd /opt
 git clone https://github.com/MandrackStudio/MandrackStudio
 
 # 2. Entre na pasta do projeto
-cd multivozes_br_engine
+cd MandrackStudio
 
 # 3. Crie o ambiente virtual (a "bolha")
 python3 -m venv venv
@@ -91,7 +91,7 @@ Ideal para testar. Se fechar o terminal, o servidor para.
 
 ```
 # Certifique-se de estar na pasta do projeto
-cd /opt/multivozes_br_engine
+cd /opt/MandrackStudio
 
 # Ative o ambiente virtual
 source venv/bin/activate
@@ -112,7 +112,7 @@ sudo apt install tmux -y
 tmux new -s multivozes
 
 # Dentro do Tmux, inicie o servidor
-cd /opt/multivozes_br_engine
+cd /opt/MandrackStudio
 source venv/bin/activate
 python main.py
 ```
@@ -133,7 +133,7 @@ Esta é a forma mais profissional. O servidor inicia automaticamente no boot e r
 ```
 sudo bash -c "cat > /etc/systemd/system/multivozes.service <<EOF
 [Unit]
-Description=Multivozes BR Engine Service
+Description=MandrackStudio
 After=network.target
 
 [Service]
@@ -221,7 +221,7 @@ curl -X POST http://localhost:5050/v1/audio/speech \
   -H "Content-Type: application/json" \
   -d '{
     "model": "tts-1",
-    "input": "Olá, este é um teste do Multivozes BR Engine!",
+    "input": "Olá, este é um teste do MandrackStudio!",
     "voice": "pt-BR-FranciscaNeural"
   }' \
   --output teste.mp3
@@ -259,15 +259,8 @@ Use o **Tmux** (Opção B) ou **Systemd** (Opção C) para manter rodando em seg
 
 Com tudo instalado e funcionando:
 
-1. ✅ Configure suas vozes personalizadas em `voices.json`
-2. ✅ Integre com n8n, Make ou outras plataformas
-3. ✅ Explore o [Painel MultiVozes](https://multivozes.com) para uma interface completa
-4. ✅ Leia o [Guia de Uso da API](API_USAGE_GUIDE.md) para comandos avançados
-
-**Dúvidas?** Consulte o [SUPPORT.md](SUPPORT.md) ou o canal no YouTube!
-```
-
 **Pronto! Copie TUDO de uma única vez!** 🎯
+
 
 
 
