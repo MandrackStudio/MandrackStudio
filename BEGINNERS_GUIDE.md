@@ -39,7 +39,7 @@ sudo apt install git python3 python3-venv python3-pip ffmpeg -y
 ```
 # 1. Clone o projeto do GitHub
 cd /opt
-git clone https://github.com/samucamg/multivozes_br_engine.git
+git clone https://github.com/MandrackStudio/MandrackStudio
 
 # 2. Entre na pasta do projeto
 cd multivozes_br_engine
@@ -268,5 +268,6 @@ Com tudo instalado e funcionando:
 ```
 
 **Pronto! Copie TUDO de uma única vez!** 🎯
+
 
 
